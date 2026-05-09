@@ -1,0 +1,24 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "leaderboard": {
+      "normal": {
+        ".read": true,
+        ".indexOn": ["score"],
+        "$entryId": {
+          ".write": "!data.exists()",
+          ".validate": "newData.hasChildren(['playerName', 'score', 'turn', 'countryCode', 'timestamp', 'deviceId']) && newData.child('playerName').isString() && newData.child('playerName').val().length > 0 && newData.child('playerName').val().length <= 20 && newData.child('score').isNumber() && newData.child('turn').isNumber() && newData.child('score').val() >= 0 && newData.child('score').val() <= 10000000 && newData.child('turn').val() >= 0 && newData.child('turn').val() <= 10000 && newData.child('countryCode').isString() && newData.child('timestamp').isString() && newData.child('deviceId').isString()"
+        }
+      },
+      "arcade": {
+        ".read": true,
+        ".indexOn": ["score"],
+        "$entryId": {
+          ".write": "!data.exists()",
+          ".validate": "newData.hasChildren(['playerName', 'score', 'turn', 'countryCode', 'timestamp', 'deviceId']) && newData.child('playerName').isString() && newData.child('playerName').val().length > 0 && newData.child('playerName').val().length <= 20 && newData.child('score').isNumber() && newData.child('turn').isNumber() && newData.child('score').val() >= 0 && newData.child('score').val() <= 10000000 && newData.child('turn').val() >= 0 && newData.child('turn').val() <= 10000 && newData.child('countryCode').isString() && newData.child('timestamp').isString() && newData.child('deviceId').isString()"
+        }
+      }
+    }
+  }
+}

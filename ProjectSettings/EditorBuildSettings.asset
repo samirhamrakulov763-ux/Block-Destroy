@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Block Destroy/Scenes/0_Splash.unity
+    guid: 63f4861190d6e448ba2d4db2cfc0cad7
+  - enabled: 1
+    path: Assets/Block Destroy/Scenes/1_Title.unity
+    guid: 9ad6e15067796437989e56c7c5105510
+  - enabled: 1
+    path: Assets/Block Destroy/Scenes/2_Home.unity
+    guid: 210f9d6f9b8f84312809b1b32d48d0aa
+  - enabled: 1
+    path: Assets/Block Destroy/Scenes/3_Play.unity
+    guid: be90f2bb36874451b83709f84668ec3f
+  - enabled: 1
+    path: Assets/Block Destroy/Scenes/5_Arcada.unity
+    guid: d34c69b46de21fe418c1e70b737024ec
+  - enabled: 1
+    path: Assets/Block Destroy/Scenes/4_Result.unity
+    guid: b461f26958a8943c79d8fa2490ddf263
+  - enabled: 1
+    path: Assets/Block Destroy/Scenes/6_ResultArcada.unity
+    guid: 02bbb4dcbe280f7449ab216eb20eff13
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
+  m_UseUCBPForAssetBundles: 0
