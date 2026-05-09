@@ -85,3 +85,7 @@ crashlytics-build.properties
 
 # Local configuration
 local.properties
+
+# Large Firebase files (download separately)
+Assets/Firebase/Plugins/x86_64/*.bundle
+Assets/Firebase/Plugins/x86_64/*.so
